@@ -1,7 +1,8 @@
 const addLinks = (result, req, res, next) => {
     const links = {
         _links: {
-            'index': '/'
+            'index'  : '/',
+            'clients': '/clients'
         }
     };
 
